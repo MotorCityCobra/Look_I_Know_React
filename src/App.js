@@ -9,9 +9,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Hire me!
-        </p>
         <MyForm/>
       </header>
     </div>

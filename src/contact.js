@@ -19,6 +19,9 @@ export default class MyForm extends React.Component {
         action="https://script.google.com/macros/s/AKfycbxjoX4s1cZ114Vd_VLE9gN8_GajFUnhIuYoswYwKKxT3NGBWpnJ8Wgx875GilrHb1FK/exec"
         method="POST"
       >
+        <p>
+          Hire me!
+        </p>
         <div className="row_10">
           <div className="col-25">
           </div>
