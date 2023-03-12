@@ -1,1 +1,1 @@
-Not a very impressive site, but I built [this website too](jjmobility.net).
+Not a very impressive site, but I built [this website too](www.jjmobility.net).
