@@ -10,7 +10,7 @@ const MyContent = () => {
         <a href="https://stratamos.com" target="_blank" rel="noopener noreferrer">
           <img src={image1} alt="GPU Cloud Computing Service"/>
         </a>
-        <p>Full stack site I built from scratch with MERN to sell time on VMs with GPUs</p>
+        <p>Full stack site I built from scratch with MERN to sell time on VMs with some GPUs in my basement</p>
       </div>
       <div className="image-box">
         <a href="https://github.com/MotorCityCobra/C_plusplus_mpo/blob/main/mpo.cpp" target="_blank" rel="noopener noreferrer">
@@ -22,7 +22,7 @@ const MyContent = () => {
         <a href="https://jjmobility.net" target="_blank" rel="noopener noreferrer">
           <img src={image3} alt="A front end site"/>
         </a>
-        <p>Front-end React site for a local business</p>
+        <p>Large front-end React site I made for a local business</p>
       </div>
     </div>
   );

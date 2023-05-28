@@ -53,11 +53,11 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     const submitted = status === "SUCCESS";
     return (
-      <>
-        {!submitted && this.renderForm()}
+      <div style={{marginBottom: '50px'}}>
+      {!submitted && this.renderForm()}
         {submitted  && <h2>Thank you for your interest! <br/> I'll talk to you soon! <br/></h2>}
         {status === "ERROR" && <h3 >Oops! There was an error.</h3>}
-      </>
+      </div>
     );
   }
 
