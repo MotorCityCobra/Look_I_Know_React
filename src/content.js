@@ -4,7 +4,7 @@ const MyContent = () => {
   return (
     <div className="container">
       <div className="image-box">
-        <img src="./images/Stratamos.png" alt="GPU Cloud Computing Service" href="stratamos.com"/>
+        <img src="./images/Stratamos.png" alt="GPU Cloud Computing Service" href="https://stratamos.com"/>
         <p>Full stack site I built from scratch with MERN to sell time on VMs with GPUs for ML.</p>
       </div>
       <div className="image-box">
@@ -12,7 +12,7 @@ const MyContent = () => {
         <p>I implemented the RL, MPO algorithm in C++. I ended up writing a few things in C++ that Pytorch only had for Python.</p>
       </div>
       <div className="image-box">
-        <img src="./images/JJMobility.png" alt="A front end site" href="jjmobility.net"/>
+        <img src="./images/JJMobility.png" alt="A front end site" href="https://jjmobility.net"/>
         <p>Front-end React site with about 100 pages.</p>
       </div>
     </div>
