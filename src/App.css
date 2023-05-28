@@ -59,3 +59,32 @@ input[type=submit] {
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-box {
+  width: 33%;
+  text-align: center;
+  font-family: 'Babel Bold', sans-serif;
+  margin: 1em 0;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .image-box {
+      width: 90%;
+  }
+}
+
+@font-face {
+  font-family: 'Babel Bold';
+  src: url('./Babell_Bold.ttf') format('truetype');
+}

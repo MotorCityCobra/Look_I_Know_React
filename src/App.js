@@ -1,15 +1,15 @@
 import React from 'react';
+import MyForm from './contact';
+import MyContent from './content';
 
-import MyForm from './contact'
-
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <MyForm/>
+      <MyContent/>
+      <MyForm/>
       </header>
     </div>
   );
